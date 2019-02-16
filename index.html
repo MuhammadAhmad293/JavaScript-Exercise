@@ -1,0 +1,179 @@
+<html>
+    <head>
+    
+     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/index_style.css"/>
+   
+        
+        
+    
+	
+    
+    </head>
+    <body>
+		<section id="section1 p-5">
+				<h4>1-Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7.</h4>
+			<div class="w-25 m-auto py-5">
+			<p>side1</p>
+			<input id="side1" class="form-control"/>
+			<p>side2</p>
+			<input id="side2" class="form-control"/>
+			<p>side3</p>
+			<input id="side3" class="form-control"/>
+	<button onclick="pl()" class="btn btn-info mt-3 mb-3">The result</button>
+	<p>Area Of The Triangle Is:<span id="result1" class="form-control"></span></p>
+           </div>
+		</section>
+
+
+		<section class="section2 bg-light p-5">
+	<h4>2. Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched</h4>
+	<div class="w-25 m-auto py-5">
+		<p>Write a Number</p>
+	<input id="random" class="form-control"/>
+	<button onclick="submit()" class="btn btn-info mt-3">Start</button>
+	</div>
+	    </section>
+		
+		<section class="section3 p-5">
+			<h4>3.Write a JavaScript program to calculate multiplication and division of two numbers (input from user)</h4>
+		<div class="w-25 m-auto py-5">
+			1st Number
+			<input id="first" type="text" class="form-control" />
+			2nd Number
+			<input id="second" type="text" class="form-control" />
+			<button onclick="multiply()" class="btn btn-info mt-3">multiply</button>
+			<button onclick="divide()" class="btn btn-info mt-3">divide</button>
+			<p>The Result:<span id="result" class="form-control"></span></p>
+			</div>
+		</section>
+
+		<section class="section4 bg-light p-5">
+			<h4>4. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.</h4>
+		<div class="w-25 m-auto py-5">
+			<p>Celsius&fahrenheit</p>
+				<input id="temp" class="form-control mt-3"/>
+				<button onclick="cels()" class="btn btn-info mt-3 mb-3">Convert to Celsius</button>
+				<button onclick="fahe()" class="btn btn-info mt-3 mb-3">Convert to Fahrenheit</button>
+				<p>The Result to Fahrenheit:<span id="fahe" class="form-control"></span></p>
+			</div>
+		</section>
+
+		<section class="section5 p-5">
+           <h4>5. Write a JavaScript exercise to get the extension of a filename</h4>
+		   <div class="w-25 m-auto py-5">
+					<p>choose a file</p>
+					<input type="file"  id="file">
+					<button onclick="ext()" class="btn btn-info mt-3 mb-3">Convert</button>
+					<p>The extension is:<span id="extn" class="form-control"></span></p>
+				</div>
+
+		</section>
+
+		<section class="section6 bg-light pt-5">
+			<h4>6 . Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference.</h4>
+			<div class="w-25 m-auto py-5">
+					<p>The Number</p>
+						<input id="num6" class="form-control mt-3"/>
+						<button onclick="number13()" class="btn btn-info mt-3 mb-3">show</button>
+						<p>The Result is:<span id="number6" class="form-control"></span></p>
+					</div>
+		</section>
+
+		<section class="section7">
+				<h4>7. Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum</h4>
+				<div class="w-25 m-auto py-5">
+						<p>The Number</p>
+							<input id="value1" class="form-control mt-3"/>
+							<input id="value2" class="form-control mt-3"/>
+							<button onclick="val()" class="btn btn-info mt-3 mb-3">show</button>
+							<p>The Result is:<span id="value" class="form-control"></span></p>
+						</div>
+			</section>
+
+		<section class="section8 bg-light p-5">
+			<h4>8. Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50.</h4>
+			<div class="w-25 m-auto py-5">						
+				<p>1st Number</p>
+				<input id="check501" class="form-control mt-3"/>
+				<p>2nd Number</p>
+				<input id="check502" class="form-control mt-3"/>
+				<button onclick="check50v()" class="btn btn-info mt-3">Calculate</button>
+			</div>
+		</section>
+			
+		<section class="section9 p-5">
+			<h4>9- Write a JavaScript program to check a given integer is within 20 of 100 or 400.</h4>
+			<div class="w-25 m-auto py-5">
+				<p>The Number</p>
+				<input id="pogba" class="form-control mt-3"/>
+				<button onclick="manu()" class="btn btn-info mt-3">Calculate</button>
+			</div>
+		</section>
+			
+		<section class="section10 bg-light p-5">
+			<h4>10-Write a JavaScript program to check from two given integers, if one is positive and one is negative.</h4>
+			<div class="w-25 m-auto py-5">
+				<p>1st Number</p>
+				<input id="pos" class="form-control mt-3"/>
+				<p>2nd Number</p>
+				<input id="nega" class="form-control mt-3"/>
+				<button onclick="pg()" class="btn btn-info mt-3">Calculate</button>
+			</div>
+		</section>	
+
+		<section class="section11 p-5">
+				<h4>11- Write a JavaScript program to check if two given integer values are in the range 50..99 (inclusive). Return true if either of them are in the said range.</h4>
+				<div class="w-25 m-auto py-5">
+					<p>1st Number</p>
+					<input id="pro1" class="form-control mt-3"/>
+					<p>2nd Number</p>
+					<input id="pro2" class="form-control mt-3"/>
+					<button onclick="program()" class="btn btn-info mt-3">Calculate</button>
+				</div>
+			</section>		
+		<section class="section12 bg-light p-5">
+			<h4>12- Write a JavaScript program to find the largest of three given integers.</h4>
+			<div class="w-25 m-auto py-5">	
+			<p>First Number</p>
+			<input id="larg1" class="form-control mt-3"/>
+			<p>Second Number</p>
+			<input id="larg2" class="form-control mt-3"/>
+			<p>Third Number</p>
+			<input id="larg3" class="form-control mt-3"/>
+				<button onclick="largest()" class="btn btn-info mt-3 mb-3">Calculate</button>
+				<p>The Result is:<span id="larg" class="form-control"></span></p>
+			</div>
+		</section>	
+		
+	<section class="section13 p-5">
+			<h4>13-Write a JavaScript program to check if two numbers are in range 40..60 or in the range 70..100 inclusive.</h4>
+			<div class="w-25 m-auto py-5">	
+			<p>First Number</p>
+			<input id="fnum" class="form-control mt-3"/>
+			<p>Second Number</p>
+			<input id="snum" class="form-control mt-3"/>
+				<button onclick="range()" class="btn btn-info mt-3">Calculate</button>
+			</div>
+	</section>
+			
+	<script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
